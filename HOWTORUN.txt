@@ -1,0 +1,2 @@
+celery -A auto_tasks worker
+python celery_runner.py beat

@@ -1,0 +1,23 @@
+{
+  "configs":[
+    {
+      "conf": "python D:\\PRACTICE\\automatic\\code\\configurations\\system_data.py",
+      "danger_values": {
+        "DATA": 1,
+        "PGA": 1
+      },
+      "admins":[
+        "kovalev_stas00@mail.ru"
+      ]
+    },
+    {
+      "conf": "C:\\Program Files\\Java\\jdk1.8.0_60\\bin\\java.exe -cp D:\\PRACTICE\\automatic\\code\\configurations\\conf2 Main",
+      "danger_values": {
+        "DATA": 0
+      },
+      "admins":[
+        "kovalev_stas00@mail.ru"
+      ]
+    }
+  ]
+}
