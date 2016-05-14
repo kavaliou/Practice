@@ -10,6 +10,7 @@
         "DATA": 2,
         "PGA": 2
       },
+      "restart_system_script": "python D:\\PRACTICE\\automatic\\code\\configurations\\system_data.py",
       "admins":[
         "kovalev_stas00@mail.ru"
       ]
