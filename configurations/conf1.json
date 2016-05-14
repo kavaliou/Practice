@@ -6,6 +6,10 @@
         "DATA": 1,
         "PGA": 1
       },
+      "critical_values": {
+        "DATA": 2,
+        "PGA": 2
+      },
       "admins":[
         "kovalev_stas00@mail.ru"
       ]
