@@ -1,8 +1,8 @@
 from datetime import timedelta
 
 CELERYBEAT_SCHEDULE = {
-    'add-every-10-seconds': {
-        'task': 'auto_tasks.add',
+    'run_task-every-20-seconds': {
+        'task': 'auto_tasks.run_task',
         'schedule': timedelta(seconds=20),
     },
 }

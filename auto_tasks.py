@@ -7,7 +7,7 @@ from mail import send
 
 
 @app.task()
-def add():
+def run_task():
     with open('configurations/conf1.json') as config:
         config = json.load(config)
         for conf in config['configs']:
@@ -20,6 +20,7 @@ def process_configuration(config):
         return l[:space_index].strip(), int(l[space_index:].strip())
 
     subprocess_result = subprocess.Popen('%s' % config['conf'], stdout=subprocess.PIPE)
+
     danger, critical = {}, {}
     for line in subprocess_result.stdout.readlines():
         name, value = parse_line(line)

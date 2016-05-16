@@ -5,7 +5,7 @@ app = Celery(
     'code',
     backend='amqp',
     broker='amqp://',
-    include=['auto_tasks', 'mail'],
+    include=['auto_tasks', 'mail'],  # include tasks, that will async run
 )
 
 app.config_from_object('celery_conf')
